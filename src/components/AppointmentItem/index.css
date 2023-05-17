@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.main-container {
+  list-style-type: none;
+  padding: 8px;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  background-color: transparent;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-left: 0px;
+}
+.title-star-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tittle {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #171f46;
+  margin-top: 0px;
+}
+.star-logo {
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  border: none;
+  margin-right: 8px;
+}
+.date {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
